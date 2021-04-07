@@ -1,0 +1,10 @@
+title Saving in SPA
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+user sends a message: "Hola Amigos" 
+end note
+server-->browser: HTTP 201 Created {"message":"note created"}
+note over server:
+Server responds with JSON data
+end note 
